@@ -1,6 +1,12 @@
 Medical-Store-Management-System-using-Cplusplus-with-Gui
 ----------------------------------------------------
 
+The Medical Store Management System is a software application developed using the C++ programming language and integrated with a graphical user interface (GUI) designed using the QT platform. This system serves multiple functions, primarily focusing on managing a medical store's operations efficiently.
+
+One of its key features is the billing system, which allows users to generate invoices for purchases made by customers. Additionally, the system maintains comprehensive records of various aspects such as inventory items, their respective suppliers, customer data, expiry dates of medicines, and all transactional data. These records are stored in XML files, ensuring organized and accessible data storage for easy retrieval and analysis.
+
+Overall, the Medical Store Management System streamlines the processes involved in managing a medical store, offering functionalities for inventory management, billing, customer management, and transaction tracking, all within a user-friendly interface.
+
 ![Screenshot_20221222_085345](https://github.com/durgavinay8/Medical-Store-Management-System-using-Cplusplus-with-Gui/assets/113960662/09792db3-8184-40a0-88bd-b70030971737)
 ![Screenshot_20221222_085434](https://github.com/durgavinay8/Medical-Store-Management-System-using-Cplusplus-with-Gui/assets/113960662/12c477be-90c7-42e2-af27-2eb2f7caf156)
 ![Screenshot_20221222_085510](https://github.com/durgavinay8/Medical-Store-Management-System-using-Cplusplus-with-Gui/assets/113960662/e3e345b9-ce8c-45c5-92a4-2600d2e75d16)
