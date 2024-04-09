@@ -1,1 +1,1 @@
-#BreadcrumbsMedical-Store-Management-System-using-Cplusplus-with-Gui
+Medical-Store-Management-System-using-Cplusplus-with-Gui
