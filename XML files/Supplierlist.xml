@@ -1,0 +1,40 @@
+<suppliers>
+ <supplier company="G Pharma Company" name="gowtham" contact="99890883382">
+  <medicines>
+   <medicine name="dolo 650" id="1"/>
+   <medicine name="Probiotics" id="2"/>
+   <medicine name="Vitamin C" id="3"/>
+  </medicines>
+ </supplier>
+ <supplier company="G Pharma Company" name="gowtham" contact="99890883382">
+  <medicines>
+   <medicine name="med7" id="1"/>
+   <medicine name="med8" id="2"/>
+   <medicine name="med9" id="3"/>
+  </medicines>
+ </supplier>
+ <supplier company="V Pharma Company" name="vinay" contact="7032320839">
+  <medicines>
+   <medicine name="med1" id="4"/>
+   <medicine name="med2" id="5"/>
+   <medicine name="med3" id="6"/>
+  </medicines>
+ </supplier>
+ <supplier company="T Pharma Company" name="Tony" contact="123456789">
+  <medicines>
+   <medicine name="med4" id="7"/>
+   <medicine name="med5" id="8"/>
+   <medicine name="med6" id="9"/>
+  </medicines>
+ </supplier>
+ <supplier company="D pharma Company" name="devesh" contact="987654321">
+  <medicines>
+   <medicine name="insulin" id="451"/>
+  </medicines>
+ </supplier>
+ <supplier company="c company" name="chershil" contact="90875667466">
+  <medicines>
+   <medicine name="dk123" id="154"/>
+  </medicines>
+ </supplier>
+</suppliers>

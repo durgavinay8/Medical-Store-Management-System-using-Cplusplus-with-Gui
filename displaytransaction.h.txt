@@ -1,0 +1,22 @@
+#ifndef DISPLAYTRANSACTION_H
+#define DISPLAYTRANSACTION_H
+
+#include <QDialog>
+
+namespace Ui {
+class DisplayTransaction;
+}
+
+class DisplayTransaction : public QDialog
+{
+    Q_OBJECT
+
+public:
+    explicit DisplayTransaction(QWidget *parent = nullptr);
+    ~DisplayTransaction();
+
+private:
+    Ui::DisplayTransaction *ui;
+};
+
+#endif // DISPLAYTRANSACTION_H

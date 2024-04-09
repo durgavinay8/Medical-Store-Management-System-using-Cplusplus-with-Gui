@@ -1,0 +1,121 @@
+#include "displaytransaction.h"
+#include "ui_displaytransaction.h"
+#include <QtCore>
+#include <QtXml>
+DisplayTransaction::DisplayTransaction(QWidget *parent) :
+    QDialog(parent),
+    ui(new Ui::DisplayTransaction)
+{
+    ui->setupUi(this);
+    QDomDocument document;
+
+
+    QFile file("C:\\Users\\91868\\OneDrive\\Desktop\\cpp\\transactions.xml");
+
+    if(!file.open(QIODevice::ReadOnly | QIODevice::Text))
+    {
+        qDebug()<<"Failed to open file";
+        //return -1;
+    }
+    if(!document.setContent(&file))
+    {
+        qDebug()<<"Failed to load document";
+        //return -1;
+        file.close();
+    }
+
+    QDomElement Transactions = document.firstChildElement();
+    QDomElement Transaction = document.firstChildElement();
+    QDomElement Customer = document.firstChildElement();
+    QDomElement Orders = document.firstChildElement();
+
+    QDomNodeList transactions = Transactions.elementsByTagName("Transaction");
+    QDomNodeList transaction1 = Transaction.elementsByTagName("Customer");
+    QDomNodeList transaction2 = Transaction.elementsByTagName("Orders");
+    QDomNodeList transaction3 = Transaction.elementsByTagName("Order");
+
+
+    for(int i=0;i<transactions.count();i++){
+        QDomNode medicinenode = transactions.at(i);
+        QDomNode medicinenode1 = transaction1.at(i);
+        QDomNode medicinenode2 = transaction2.at(i);
+        QDomNode medicinenode3 = transaction3.at(i);
+        if(medicinenode.isElement())
+        {
+            QDomElement medicineele=medicinenode.toElement();
+            ui->tableWidget->insertRow(ui->tableWidget->rowCount());
+            QTableWidgetItem * item;
+            for(int j=0;j<=1;j++)
+
+            {
+                item = new QTableWidgetItem;
+                if(j==0 )
+                    item->setText(medicineele.attribute("Time"));
+
+                if(j==1 )
+                    item->setText(medicineele.attribute("Date"));
+
+                ui->tableWidget->setItem(ui->tableWidget->rowCount()-1,j,item);
+            }
+
+        }
+
+            QDomElement medicineele1=medicinenode1.toElement();
+            ui->tableWidget->insertRow(ui->tableWidget->rowCount());
+            QTableWidgetItem * item1;
+            for(int j=2;j<=3;j++)
+
+            {
+                item1 = new QTableWidgetItem;
+                if(j==2 )
+                    item1->setText(medicineele1.attribute("CustomerName"));
+
+                if(j==3 )
+                    item1->setText(medicineele1.attribute("CustomerID"));
+
+                ui->tableWidget->setItem(ui->tableWidget->rowCount()-1,j,item1);
+            }
+
+            QDomElement medicineele3=medicinenode3.toElement();
+            ui->tableWidget->insertRow(ui->tableWidget->rowCount());
+            QTableWidgetItem * item3;
+            for(int j=4;j<=5;j++)
+
+            {
+                item3 = new QTableWidgetItem;
+                if(j==4 )
+                    item3->setText(medicineele3.attribute("Quantity"));
+
+                if(j==5 )
+                    item3->setText(medicineele3.attribute("MedicineName"));
+
+                ui->tableWidget->setItem(ui->tableWidget->rowCount()-1,j,item3);
+            }
+
+            QDomElement medicineele2=medicinenode2.toElement();
+            ui->tableWidget->insertRow(ui->tableWidget->rowCount());
+            QTableWidgetItem * item2;
+            for(int j=6;j<=7;j++)
+
+            {
+                item2 = new QTableWidgetItem;
+                if(j==6 )
+                    item2->setText(medicineele2.attribute("TotalValue"));
+
+                ui->tableWidget->setItem(ui->tableWidget->rowCount()-1,j,item2);
+            }
+
+
+
+
+
+
+        }
+    }
+
+
+
+DisplayTransaction::~DisplayTransaction()
+{
+    delete ui;
+}

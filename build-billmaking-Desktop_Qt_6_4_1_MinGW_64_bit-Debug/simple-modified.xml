@@ -1,0 +1,17 @@
+<Transactions>
+ <bar/>
+ <Transaction Date="12/12/2022" BillNo="Bill number :" Time="21:26">
+  <Customer CustomerName="chershil" CustomerID="482"/>
+  <Orders TotalValue="100">
+   <Order ProductID="dolo 650" Quantity="10"/>
+   <Order ProductID="abc" Quantity="20"/>
+  </Orders>
+ </Transaction>
+ <Transaction Date="12/12/2022" BillNo="Bill number :" Time="21:26">
+  <Customer CustomerName="daksh" CustomerID="431"/>
+  <Orders TotalValue="25">
+   <Order MedicineName="dolo 650" Quantity="5"/>
+   <Order MedicineName="xyz" Quantity="5"/>
+  </Orders>
+ </Transaction>
+</Transactions>

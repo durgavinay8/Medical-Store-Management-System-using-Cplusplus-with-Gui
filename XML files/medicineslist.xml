@@ -1,0 +1,11 @@
+<medicines status="NO">
+ <medicine name="dolo 650" mrp="2" quantity="44" location="A1" ID="4" id="0" mm="12" status="YES" MRP="5" yy="2023" dd="22"/>
+ <medicine name="Probiotics" mrp="3" quantity="3" location="B1" ID="5" id="1" mm="12" status="YES" yy="2022" dd="12"/>
+ <medicine name="Vitamin C" mrp="4" quantity="300" location="C1" ID="6" id="2" mm="12" status="NO" yy="2023" dd="20"/>
+ <medicine name="Acid Free C" mrp="8" quantity="250" location="D1" ID="7" id="3" mm="10" status="YES" yy="2022" dd="20"/>
+ <medicine name="paracetomol" mrp="4" quantity="250" location="D1" ID="8" id="3" mm="10" status="NO" yy="2021" dd="20"/>
+ <medicine name="moov pain relif" mrp="60" quantity="250" location="D2" ID="9" id="3" mm="09" status="YES" yy="2024" dd="20"/>
+ <medicine name="Allegra" mrp="22" quantity="25" location="D1" ID="7" id="3" mm="10" status="YES" yy="2023" dd="20"/>
+ <medicine name="anti biotics" mrp="80" quantity="250" location="D1" ID="7" id="3" mm="10" status="YES" yy="2022" dd="20"/>
+ <medicine name="cough syrup" mrp="100" quantity="250" location="D1" ID="7" id="3" mm="10" status="YES" yy="2022" dd="20"/>
+</medicines>

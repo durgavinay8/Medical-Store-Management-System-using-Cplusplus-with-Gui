@@ -1,0 +1,90 @@
+<Transactions>
+ <Transaction Date="17/12/2022" BillNo="1" Cashier="RamBabu" Time="21:20:24">
+  <Customer CustomerName="tony" CustomerID="486"/>
+  <Orders TotalValue="20 Rs">
+   <Order Quantity="10" Mrp="2" ProductName="abc" ProductID="123"/>
+   <Order Quantity="15" Mrp="3" ProductName="def" ProductID="124"/>
+   <Order Quantity="20" Mrp="4" ProductName="ghi" ProductID="125"/>
+  </Orders>
+ </Transaction>
+ <Transaction Date="17/12/2022" BillNo="2" Cashier="RamBabu" Time="22:31:20">
+  <Customer CustomerName="vinay" CustomerID="1234"/>
+  <Orders TotalValue="16 Rs">
+   <Order Quantity="9" Mrp="5" ProductName="jkl" ProductID="126"/>
+   <Order Quantity="10" Mrp="6" ProductName="mno" ProductID="127"/>
+   <Order Quantity="10" Mrp="7" ProductName="pqr" ProductID="128"/>
+   <Order Quantity="10" Mrp="8" ProductName="stu" ProductID="129"/>
+  </Orders>
+ </Transaction>
+ <Transaction Date="17/12/2022" BillNo="3" Cashier="RamBabu" Time="21:20:24">
+  <Customer CustomerName="tony" CustomerID="486"/>
+  <Orders TotalValue="20 Rs">
+   <Order Quantity="10" Mrp="2" ProductName="abc" ProductID="123"/>
+   <Order Quantity="15" Mrp="3" ProductName="def" ProductID="124"/>
+   <Order Quantity="20" Mrp="4" ProductName="ghi" ProductID="125"/>
+  </Orders>
+ </Transaction>
+ <Transaction Date="18/12/2022" BillNo="4" Cashier="RamBabu" Time="11:23:43">
+  <Customer CustomerName="vinay" CustomerID="123"/>
+  <Orders TotalValue="18 Rs">
+   <Order Quantity="10" Mrp="2" ProductName="dolo 650" ProductID="0"/>
+  </Orders>
+ </Transaction>
+ <Transaction Date="19/12/2022" BillNo="5" Time="14:22:24">
+  <Customer CustomerName="chandana" CustomerID="451"/>
+  <Orders TotalValue="8 Rs">
+   <Order Quantity="10" Mrp="2" ProductName="dolo 650" ProductID="0"/>
+   <Order Quantity="5" Mrp="3" ProductName="Probiotics" ProductID="1"/>
+   <Order Quantity="2" Mrp="4" ProductName="Vitamin C" ProductID="2"/>
+  </Orders>
+ </Transaction>
+ <Transaction Date="19/12/2022" BillNo="6" Time="15:51:11">
+  <Customer CustomerName="bole" CustomerID="427"/>
+  <Orders TotalValue="14 Rs">
+   <Order Quantity="10" Mrp="2" ProductName="dolo 650" ProductID="0"/>
+  </Orders>
+ </Transaction>
+ <Transaction Date="20/12/2022" BillNo="7" Time="15:26:43">
+  <Customer CustomerName="prahan" CustomerID="451"/>
+  <Orders TotalValue="18 Rs">
+   <Order Quantity="10" Mrp="2" ProductName="dolo 650" ProductID="0"/>
+  </Orders>
+ </Transaction>
+ <Transaction Date="20/12/2022" BillNo="8" Cashier="123" Time="21:10:2">
+  <Customer CustomerName="daddy" CustomerID="1234555"/>
+  <Orders TotalValue="24">
+   <Order Quantity="12" Mrp="2" ProductName="dolo 650" ProductID="0"/>
+  </Orders>
+ </Transaction>
+ <Transaction Date="21/12/2022" BillNo="9" Cashier="123" Time="13:1:34">
+  <Customer CustomerName="gowtham" CustomerID="1234"/>
+  <Orders TotalValue="8">
+   <Order Quantity="4" Mrp="2" ProductName="dolo 650" ProductID="0"/>
+  </Orders>
+ </Transaction>
+ <Transaction Date="21/12/2022" BillNo="10" Cashier="123" Time="14:7:37">
+  <Customer CustomerName="Devesh" CustomerID="519"/>
+  <Orders TotalValue="20">
+   <Order Quantity="10" Mrp="2" ProductName="dolo 650" ProductID="0"/>
+  </Orders>
+ </Transaction>
+ <Transaction Date="21/12/2022" BillNo="11" Cashier="123" Time="15:31:24">
+  <Customer CustomerName="Nikhil" CustomerID="123"/>
+  <Orders TotalValue="10">
+   <Order Quantity="5" Mrp="2" ProductName="dolo 650" ProductID="0"/>
+  </Orders>
+ </Transaction>
+ <Transaction Date="21/12/2022" BillNo="12" Cashier="vinay@srmap" Time="17:30:24">
+  <Customer CustomerName="santhosh sir" CustomerID="1234"/>
+  <Orders TotalValue="20">
+   <Order Quantity="10" Mrp="2" ProductName="dolo 650" ProductID="0"/>
+  </Orders>
+ </Transaction>
+ <Transaction Date="22/12/2022" BillNo="13" Cashier="gowtham@srmap" Time="8:56:11">
+  <Customer CustomerName="madhu" CustomerID="987"/>
+  <Orders TotalValue="26">
+   <Order Quantity="10" Mrp="2" ProductName="dolo 650" ProductID="0"/>
+   <Order Quantity="2" Mrp="3" ProductName="Probiotics" ProductID="1"/>
+  </Orders>
+ </Transaction>
+</Transactions>

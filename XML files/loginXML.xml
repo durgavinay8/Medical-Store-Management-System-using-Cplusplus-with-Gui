@@ -1,0 +1,10 @@
+<login>
+ <Admin>
+  <person username="vinay@srmap" password="vinay123"/>
+ </Admin>
+ <Employee>
+  <person username="gowtham@srmap" password="gowtham123"/>
+  <person username="tony@srmap" password="tony123"/>
+  <person username="123" password="123"/>
+ </Employee>
+</login>
